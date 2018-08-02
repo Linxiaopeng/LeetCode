@@ -24,5 +24,3 @@ function reverseString(str) {
     }
     return str.join("");
 }
-
-reverseString("hello");
