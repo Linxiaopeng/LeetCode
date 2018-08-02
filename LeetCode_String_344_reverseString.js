@@ -11,4 +11,4 @@ function reverseString(str) {
     return j;
 }
 
-reverseString("Java");
+reverseString("JavaScript");
