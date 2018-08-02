@@ -11,4 +11,18 @@ function reverseString(str) {
     return j;
 }
 
-reverseString("JavaScript");
+reverseString("hello");
+
+// Advanced
+
+function reverseString(str) {
+    str = str.split("");
+    for (i = 0; max = (str.length - 1) / 2, i < max; i++) {
+        temp = str[i];
+        str[i] = str[str.length - 1 - i];
+        str[str.length - 1 - i] = temp;
+    }
+    return str.join("");
+}
+
+reverseString("hello");
