@@ -8,3 +8,12 @@
 // Note:
 // You may assume the string contains only lowercase alphabets.
 
+function isAnagram(s, t) {
+    if (s.length != t.length)
+        return false;
+    s = s.split("").sort().join("");
+    t = t.split("").sort().join("");
+    return s == t;
+}
+
+isAnagram("cat","act");
