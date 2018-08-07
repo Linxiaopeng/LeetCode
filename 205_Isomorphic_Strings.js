@@ -29,4 +29,4 @@ function isIsomorphic(s, t) {
     return true;
 }
 
-isIsomorphic("egg","add")
+isIsomorphic("egg","add");
