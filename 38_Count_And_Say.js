@@ -7,15 +7,14 @@
 function countAndSay(n) {
     if (n <= 1) return "1";
 
-    var countSay = '1';
+    var countSay = "1";
 
     for (var i = 2; i <= n; i++) {
         var num = countSay.charAt(0); //從開頭開始數
         var temp = countSay;
         var count = 1;
 
-        countSay = ''; // 清空儲存這輪數完的字串
-
+        countSay = ""; // 清空儲存這輪數完的字串
 
         for (var j = 1; j < temp.length; j++) {
             // 數字相同，count++
@@ -33,6 +32,4 @@ function countAndSay(n) {
         countSay += num;
     }
     return countSay;
-
-};
-
+}
