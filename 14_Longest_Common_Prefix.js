@@ -9,8 +9,7 @@ function longestCommonPrefix(s) {
     for (var i = 1; i < s.length; i++) {
         var str = s[i];
 
-        var j = 0;
-        for (; j < same.length; j++) {
+        for (var j = 0; j < same.length; j++) {
             if (same[j] != str.charAt(j)) {
                 break;
             }
@@ -21,4 +20,4 @@ function longestCommonPrefix(s) {
     return same;
 }
 
-longestCommonPrefix(["abcd", "abccc", "abcde"]);
+longestCommonPrefix(["abcd", "abccc", "abdec"]);
