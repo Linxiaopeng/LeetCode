@@ -7,7 +7,7 @@ function addBinary(a, b) {
     var res = "";
     var n1 = a.length;
     var n2 = b.length;
- 
+
     var carry = 0;
     if (n1 < n2) {
         for (var i = 0; i < n2 - n1; ++i) {
