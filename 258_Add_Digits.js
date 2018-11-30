@@ -17,4 +17,11 @@ function addDigits(num) {
     return num;
 }
 
+// addvance
+function addDigits(num) {
+    if (num == 0) return 0;
+    if (num == 0) return 9;
+    return num % 9;
+}
+
 addDigits(138);
